@@ -6,8 +6,8 @@
 <script>
     let options = {
         host: 'osama-robot.herokuapp.com',
-        port: 443,
-        protocol: 'wss'
+        port: 8081,
+        protocol: 'ws'
     };
     let client = mqtt.connect(options)
     client.on('connect', () => {
